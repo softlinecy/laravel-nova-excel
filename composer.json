@@ -1,5 +1,5 @@
 {
-  "name": "maatwebsite/laravel-nova-excel",
+  "name": "softlinecy/laravel-nova-excel",
   "description": "Supercharged Excel exports for Laravel Nova Resources",
   "license": "MIT",
   "keywords": [
@@ -19,8 +19,11 @@
   "require": {
     "php": ">=7.1.0",
     "laravel/nova": "*",
-    "laravie/serialize-queries": "^1.0|^2.0",
+    "laravie/serialize-queries": "^1.0|^2.0|^3.0",
     "maatwebsite/excel": "^3.1"
+  },
+  "replace": {
+    "maatwebsite/laravel-nova-excel": "self.version"
   },
   "autoload": {
     "psr-4": {
